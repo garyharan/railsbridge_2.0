@@ -4,10 +4,16 @@ class Caesar
   end
 
   def self.decipher(str)
+    cipher(str)
   end
 end
 
-puts Caesar.cipher(ARGV.first)
+# puts Caesar.cipher(ARGV.first)
+if Caesar.decipher("Tnel") == "Gary"
+  puts "we have found the key!"
+else
+  puts "we have not found the key :-("
+end
 
 # Gary = Tnel
 # Mike = Zvxr
