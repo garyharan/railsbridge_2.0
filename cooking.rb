@@ -1,4 +1,8 @@
 class Cook
+  def title
+    "Cook"
+  end
+
   def cook_an_egg
     puts "cooking an egg"
   end
