@@ -10,15 +10,11 @@ end
 
 class Chef < Cook
   def cooking_lots_of_eggs(amount = 3)
-    amount.times do
-      cook_an_egg
-    end
+    amount.times { cook_an_egg }
   end
 
   def cooking_lots_of_slices_of_bacon(amount = 3)
-    amount.times do
-      cook_a_slice_of_bacon
-    end
+    amount.times { cook_a_slice_of_bacon }
   end
 end
 
