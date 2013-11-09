@@ -9,9 +9,12 @@ class Cook
 end
 
 class Chef < Cook
+  def cooking_lots_of_eggs(amount)
+    amount.times do
+      cook_an_egg
+    end
+  end
 end
 
 maurene = Chef.new
-maurene.cook_an_egg
-maurene.cook_a_slice_of_bacon
-maurene.cook_a_slice_of_bacon
+maurene.cooking_lots_of_eggs(3)
