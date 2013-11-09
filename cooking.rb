@@ -9,9 +9,6 @@ class Cook
 end
 
 class Chef < Cook
-  def cook_an_egg
-    puts "cooking a fancy egg"
-  end
 end
 
 maurene = Chef.new
