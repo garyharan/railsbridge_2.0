@@ -13,6 +13,10 @@ class Cook
 end
 
 class Chef < Cook
+  def title
+    "Chef"
+  end
+
   def cooking_lots_of_eggs(amount = 3)
     amount.times { cook_an_egg }
   end
