@@ -19,5 +19,5 @@ class Chef < Cook
 end
 
 maurene = Chef.new
-maurene.cooking_lots_of_eggs(2)
+maurene.cooking_lots_of_eggs
 maurene.cooking_lots_of_slices_of_bacon(6)
